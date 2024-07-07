@@ -1,0 +1,37 @@
+node_modules
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Optional npm cache directory
+.npm
+client/.npm
+server/.npm
+
+# Optional REPL history
+.node_repl_history
+client/.node_repl_history
+server/.node_repl_history
+
+# Environment variables
+.env
+client/.env
+server/.env
+
+# Build directories
+dist/
+client/dist/
+server/dist/
+build/
+client/build/
+server/build/
+
+# IDE specific files
+.vscode/
+.idea/
+.DS_Store
